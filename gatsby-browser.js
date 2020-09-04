@@ -16,4 +16,9 @@ import './src/css/frontend.min.css';
 import './src/css/animations.min.css';
 import './src/css/global.css';
 import './src/css/post-7.css';
+import './src/css/post-10.css';
+import './src/css/post-12.css';
+import './src/css/post-14.css';
+import './src/css/post-16.css';
+import './src/css/post-18.css';
 

@@ -1,5 +1,103 @@
+@font-face {
+    font-family: "futura";
+    src: url("../fonts/futura.woff") format("woff"),
+         url("../fonts/futura.ttf") format("ttf");
+  }
+
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+}
+
+#navbar{
+    font-family: futura !important;
+    position: fixed;
+    width: 100%;
+    z-index: 600;
+    background: white;
+    .nav-link{
+        font-family: futura !important;
+        color:#2683B7;
+    }
+   
+}
+#header{
+    padding-top: 18rem;
+}
+.elementor-heading-title{
+    font-family: futura !important;
+    span{
+        font-family: futura !important;
+        font-size: 17px;
+        font-style: italic;
+    }
+   
+}
+.bs-title{
+   span{
+    font-family: futura !important;
+    font-size:30px;
+    font-style: normal;
+   }
+}
+.bs-content{
+    p{
+        font-family: futura !important;
+        font-size:32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height:38px;
+        color:lightslategray;
+        font-stretch:100%;
+    }
+}
+.nagib{
+    p,div span{
+        font-family: futura !important;
+        font-size:25px !important;
+    }
+}
+.elementor-text-editor{
+    font-family: futura !important;
+    span{
+        font-family: futura !important;
+    }
+}
+.txtNew{
+    span{
+        font-family: futura !important;
+    }
+}
+.p-title{
+    color: #5ea3ca !important;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+
+}
+h1{
+    text-decoration: underline !important;
+    text-decoration-color: black !important;
+    text-decoration-skip-ink: none !important;
+    text-underline-position: under !important;
+}
+.phi h2{
+    text-decoration: underline !important;
+    text-decoration-color: gray !important;
+    text-decoration-skip-ink: none !important;
+    text-underline-position: under !important;
+}
+#footer{
+    background-color: #1e3f76 ;
+    padding:2rem 0;
+    color:white;
+    text-align: center;
+    margin-top:100px;
+    span{
+        color:white;
+        font-family: futura !important;
+        font-size:15px;
+    }
 }

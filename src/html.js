@@ -27,13 +27,13 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
-      <script src="/jquery-numerator.min.js" type="text/javascript" />"
-      <script id = "elementor-frontend-js-before" dangerouslySetInnerHTML={{__html:`
+     
+      <script id="elementor-frontend-js-before" dangerouslySetInnerHTML={{__html:`
       
       var elementorFrontendConfig = {
         "environmentMode": {
             "edit": false,
-            "wpPreview": false
+            "wpPreview": true
         },
         "i18n": {
             "shareOnFacebook": "Share on Facebook",
@@ -80,14 +80,20 @@ export default function HTML(props) {
             "lightbox_description_src": "description"
         },
         "post": {
-            "id": 7,
-            "title": "SSB%20%E2%80%93%20Just%20another%20WordPress%20site",
+            "id": 10,
+            "title": "Home%7C%20SSB%20%E2%80%93%20Just%20another%20WordPress%20site",
             "excerpt": "",
             "featuredImage": false
+        },
+        "user": {
+            "roles": ["administrator"]
         }
-    }
-      
+    };
       `}} />
+   
+      
+     
+     
    
     </html>
   )
